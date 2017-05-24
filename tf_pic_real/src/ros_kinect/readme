@@ -1,0 +1,6 @@
+三种方法打开Kinect：(1)roslaunch openni_launch openni.launch//打开kinect
+                  (2)roslaunch freenect_launch freenect.launch
+                  (3)rosrun openni_camera openni_node  //topic和前两种不一样
+ 
+运行opencv窗口截取图片
+rosrun image imageCapreal  //打开opencv捕捉命令

@@ -1,0 +1,4 @@
+(1)digit_num 标准数字图片
+(2)write_num mnist手写数字图片
+(3)model CNN训练模型参数
+(4)主文件tfcnn_idenpic_main.py调用模块pic_con_bin.py把手写图片生成二进制文件;接着调用cnn_iden_pic.py模块用CNN网络识别存储成二进制文件的手写数字图片;最后调用模块bin_con_pic.py生成原始要识别的手写数字图片和CNN识别出的数字的标准图片做以对比。
